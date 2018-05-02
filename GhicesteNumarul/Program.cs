@@ -22,9 +22,10 @@ namespace GhicesteNumarul
                 else if (x > nr)
                     Console.WriteLine("Numarul tau este mai MARE decat numarul pe care trebuie sa il ghicesti.");
                 else
-                    tf = true;
+                    tf = true; 
             }
             Console.WriteLine("Felicitari, ai ghicit numarul " + nr);
+            Console.WriteLine("Meriti un premiu");
         }
     }
 }
