@@ -21,7 +21,7 @@ namespace GhicesteNumarul
                     Console.WriteLine("Numarul tau este mai MIC decat numarul pe care trebuie sa il ghicesti.");
                 else if (x > nr)
                     Console.WriteLine("Numarul tau este mai MARE decat numarul pe care trebuie sa il ghicesti.");
-                else
+                else 
                     tf = true; 
             }
             Console.WriteLine("Felicitari, ai ghicit numarul " + nr);
